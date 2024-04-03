@@ -1,0 +1,24 @@
+<h1>Space X Launches</h1><hr />
+
+<table class="table" id='tab'>
+    <thead>
+        <tr>
+            <th scope="col">Mission Name</th>
+            <th scope="col">Launch Year</th>
+            <th scope="col">Details</th>
+            <th scope="col">Mission patch</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let mission of missions">
+            <td>{{ mission.mission_name }}</td>
+            <td>{{ mission.launch_year }}</td>
+            <td>{{ mission.details }}</td>
+            <td><img src="{{mission.mission_patch_small}}" alt=""></td>
+            <td>
+                <button (click)="launchDetails(mission.number)" class='btn btn-info' data- toggle="modal"data-target="#myModal">Details</button>
+            </td>
+        </tr>
+    </tbody>
+</table>

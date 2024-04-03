@@ -1,0 +1,17 @@
+<h2>Launch Details</h2><hr />
+
+<div *ngIf="mission">
+    <div> 
+      <label><b>Mission Name: </b></label> {{mission.mission_name}}
+   </div>
+   <div>
+    <label><b>Launch Year </b></label> {{mission.launch_year}}
+   </div>
+   <div>
+    <label><b>Detales</b></label> {{mission.details}}
+   </div>
+   <div>
+    <label><b>Mission patch: </b></label> <img src="{{mission.mission_patch_small}}" alt="">
+   </div>
+</div><br><br>
+   <button (click)=" backToMissionList()" class="btn btn-primary">Back to Mission List</button><br>

@@ -1,27 +1,19 @@
-# 101395226LabTest2Comp3133
+# SpaceX Mission Explorer
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.3.
+SpaceX Mission Explorer is a web application that allows users to explore SpaceX missions, view mission details, and filter missions by launch year.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Mission List: View a list of all SpaceX missions, including mission name, launch year, and mission patch.
+- Mission Details: View detailed information about a selected mission, including mission name, launch year, details, and mission patch.
+- Filter by Year: Filter missions by launch year to narrow down the list based on specific criteria.
+- Loading Indicator: Display a loading indicator while fetching mission data from the SpaceX API.
 
-## Code scaffolding
+## Technologies Used
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Angular: Frontend framework for building the user interface.
+- TypeScript: Programming language used for developing Angular applications.
+- HTML/CSS: Markup and styling languages for designing the user interface.
+- SpaceX API: API providing data about SpaceX missions.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+by 101395226
